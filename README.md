@@ -2,7 +2,25 @@
 # HW1
 ## W1L2 In-Class Activity
 
-Put your notes from the W1L2 (Thurs, Jan 9) in-class activity here.
+Objects
+    UI
+        Seeds planted UI
+            Attributes: text
+            Actions: count goes up when player plants a seed
+        Seeds remaining UI
+            Attributes: text
+            Actions: count goes down when player plants a seed
+    Player
+        Attributes: Bunny Sprite
+        Actions
+            Movement
+                Input: WASD
+                Output: Player changing location
+            Planting seeds
+                Input: Space
+                Output: If player has seeds remaining: 1 seed is planted at player’s location; decreases seed count + increases plant count (shows in UI)
+    Plants
+        Attributes: Plant sprite
 
 ## Devlog
 Prompt: Include the HW1 break-down exercise you wrote during the Week 1 - Lecture 2 (Jan 9) in-class activity (above). If you did not attend and perform this activity, review the lecture slides and write your own plan for how you believe HW1 should be built. If your initially proposed plan turned out significantly different than the activity answers given by Prof Reid, you may want to note what was different. Then, write about how the plan you wrote in the break-down connects to the code you wrote. Cite specific class names and method names in the code and GameObjects in your Unity Scene.
