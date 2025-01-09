@@ -27,6 +27,8 @@ Prompt: Include the HW1 break-down exercise you wrote during the Week 1 - Lectur
 
 I finished this assignment very quickly and I am so proud of how much I've learned and retained from last quarter. I referenced my scripts in assignments from GDIM 31 to help me write code for this assignment. In my breakdown, I note that the UI decreases/increases each time the player plants an item with Space. In my code, I called the UpdateSeeds() method from the PlantCountUI script each time a player pressed space (which planted a seed) and input (_numSeedsLeft, _numSeedsPlanted) as the argument to fit the (int SeedsLeft, int SeedsPlanted) parameters and update the numbers accordingly. Additionally, my breakdown notes that a player can only plant a seed if they have seeds remaining to plant. In my code, I made it so that the PlantSeed() method is only called if the player presses Space AND if _numSeedsLeft is greater than 0. Otherwise, nothing happens.
 
+I had some trouble with the UI when building because I forgot to anchor the text, but I figured it out.
+
 Overall, this assignment has shown me my growth since the beginning of GDIM 31 and I think the pieces are starting to fit together.
 
 ## Open-Source Assets
